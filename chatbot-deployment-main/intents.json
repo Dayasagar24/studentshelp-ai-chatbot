@@ -1,0 +1,109 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "How do I apply for admission?",
+        "What is the admission process?",
+        "Can you guide me through the admission process?"
+      ],
+      "responses": [
+        "You can apply for admission by visiting our official website and filling out the application form.",
+        "The admission process involves filling out the application form online and submitting the required documents.",
+        "Visit the admissions section on our website for detailed steps on how to apply."
+      ]
+    },
+    {
+      "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "why do cows wear bells.Their horn don't work"
+        ]
+      },
+      {
+        "tag": "college_courses",
+        "patterns": [
+          "What departments are available in the college?",
+          "Which courses does the college offer?",
+          "Tell me about the college programs.",
+          "List of courses available."
+        ],
+        "responses": [
+          "Our college offers programs in Arts (B.A.), Science (B.Sc.), and Commerce (B.Com.). Let me know if you need details about a specific course."
+        ]
+      },
+      {
+        "tag": "arts_courses",
+        "patterns": [
+          "What courses are available in the Arts department?",
+          "Tell me about BA courses.",
+          "Which subjects are available in the Arts faculty?",
+          "List all Arts courses."
+        ],
+        "responses": [
+          "The Arts department offers: Economics, English, Hindi, History, Marathi, Multimedia and Mass Communication (BAMMC), Political Science, Psychology, Sanskrit, Sociology, and Visual Arts."
+        ]
+      },
+      {
+        "tag": "science_courses",
+        "patterns": [
+          "What courses are available in the Science department?",
+          "Tell me about B.Sc. programs.",
+          "Which Science subjects are available?",
+          "List all Science courses."
+        ],
+        "responses": [
+          "The Science department offers: Actuarial Science and Quantitative Finance, Aviation, Biotechnology, Botany, Chemistry, Computer Science, Data Science and Business Analytics, Hospitality and Catering, Information Technology, Mathematics, Microbiology, Pharma Drug Science, Physics, and Zoology."
+        ]
+      },
+      {
+        "tag": "commerce_courses",
+        "patterns": [
+          "What courses are available in the Commerce department?",
+          "Tell me about B.Com. programs.",
+          "Which subjects are available in Commerce?",
+          "List all Commerce courses."
+        ],
+        "responses": [
+          "The Commerce department offers: Accountancy, Accounting and Finance (BAF), Bachelor of Sports Management (BSM), Banking and Insurance (BBI), Business Process Management (TCS Patroned), Commerce, Finance and Management Accounting (BFMA), and Management Studies (Previously BMS)."
+        ]
+      }
+  ]
+}
